@@ -1,0 +1,45 @@
+@import "./partials/overwrights";
+
+.navbar {
+  background-color: #e4a5c7;
+}
+
+.navbar-brand {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-weight: 200;
+}
+
+.navbar-brand:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.btn-rosa {
+  background-color: #e4a5c7;
+  color: white;
+  border: none;
+}
+
+.btn-rosa:hover {
+  background-color: #d78fb8;
+  color: white;
+}
+
+.card.card-rosa {
+  background-color: #fbe3ed !important;
+  color: #000;
+}
+.bi-bag-fill {
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+}
+.product-img {
+  max-width: 300px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
